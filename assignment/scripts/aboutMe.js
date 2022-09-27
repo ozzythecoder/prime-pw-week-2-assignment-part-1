@@ -7,7 +7,7 @@ let lastName = "McAllister";
 
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 // (remember, you already have variables for this, can you use those?)
-let fullName = firstName + " " + lastName
+let fullName = firstName + " " + lastName;
 
 // 4 - Console log the value of `fullName`
 console.log(fullName);
@@ -25,7 +25,8 @@ console.log(`My name is ${fullName}, and I think ${luckyNumber} is a winner!`);
 let adventurous = true;
 
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
-let food = "an overnight marinated steak"
+let food = "an overnight marinated steak";
+console.log(food);
 
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
 let pets = 0;
@@ -49,7 +50,7 @@ if (adventurous == true) {
 
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
-if (luckyNumber == 2 && adventurous == true) {
+if (luckyNumber == 2 && adventurous === true) {
     console.log("Roll the dice!");
 }
 
@@ -92,7 +93,7 @@ console.log(mostPets);
 //      Otherwise, log "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
 
-switch(luckyNumber) {
+switch (luckyNumber) {
     case 1:
         console.log("First is the worst");
         break;
@@ -109,5 +110,4 @@ switch(luckyNumber) {
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 
-adventurous == true ? console.log("Adventures are great!") : console.log("How about we stay home?");
-
+adventurous === true ? console.log("Adventures are great!") : console.log("How about we stay home?");
