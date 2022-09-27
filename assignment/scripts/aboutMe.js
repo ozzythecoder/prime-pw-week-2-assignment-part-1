@@ -42,7 +42,7 @@ const allowedPets = 1;
 
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
-if (adventurous == true) {
+if (adventurous === true) {
     console.log("Adventures are great!");
 } else {
     console.log("How about we stay home?");
@@ -63,7 +63,7 @@ if (pets < allowedPets) {
     console.log("I can have more pets!");
 } else if (pets == allowedPets) {
     console.log("I have enough pets");
-} else if (pets > allowedPets) {
+} else {
     console.log("Oh no, I have too many pets!");
 }
 
